@@ -1,0 +1,15 @@
+{
+  "name": "classtime-importer",
+  "version": "1.0.0",
+  "description": "Create Classtime questions from a JSON file using Playwright (no AI)",
+  "type": "module",
+  "bin": { "classtime": "./classtime.mjs" },
+  "scripts": {
+    "login": "node classtime.mjs login",
+    "validate": "node classtime.mjs validate",
+    "create": "node classtime.mjs create"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}
